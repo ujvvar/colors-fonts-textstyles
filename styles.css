@@ -8,7 +8,7 @@ body {
     background-color: #0a3122;
     text-align: center;
     font-family: "Arimo", sans-serif; 
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     width: 700px;
     margin: 0 auto;
@@ -17,7 +17,7 @@ body {
 
 .container {
     border: 3px solid rgb(34, 143, 98);
-    border-radius: 25px;
+    border-radius: 15px;
     padding: 20px;
     margin: 15px auto;
     display: block;
@@ -28,34 +28,35 @@ body {
 .color-panel {
     display: inline-block;
     border: 3px solid rgb(34, 143, 98);
-    border-radius: 5px;
-    width: 35%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
     text-align: center;
-    margin: 15px auto;
+    margin: 25px auto;
     min-height: 100px;
 }
 
-.lake-blue {
-    background-color: #256886;
+.lighter {
+    background-color: #8ae3cc;
     color: #000000;
     font-weight: 900;
 }
 
-.sauron-red {
-    background-color: #e42626;
+.light {
+    background-color: #369c81;
     color: #000000;
     font-weight: 900;
 }
 
-.moss-green {
-    background-color: #3d6338;
+.dark {
+    background-color: #28735f;
     color: #000000;
     font-weight: 900;
 }
 
-.zen-grey {
-    background-color: #8b8f91;
-    color: #000000;
+.darker {
+    background-color: #194f41;
+    color: #d8ede8;
     font-weight: 900;
 }
 
